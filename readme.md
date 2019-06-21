@@ -23,7 +23,7 @@ Query strings:
 
 On Success:
 `200 OK` 
-```
+```js
 [
     {
         "category": "Security",
@@ -70,13 +70,13 @@ On Success:
 
 On no query match:
 `400 BAD REQUEST`
-```
+```js
 {
 "error": "No applications found supporting version {version}"
 }
 ```
 or
-```
+```js
 {
 "error": "No applications found for id {id}"
 }
