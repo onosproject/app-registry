@@ -1,6 +1,7 @@
 import { IApplication, IApplicationVersionListing } from "../types/application"
 import { url } from "inspector"
 import signale from 'signale'
+import { writeFileSync } from "fs";
 
 const fs = require('fs')
 const path = require('path')
@@ -10,18 +11,27 @@ let allApps: IApplication[] = []
 
 
 fs.readdir(testFolder, (err: Error, files: string[]) => {
+    let passed = true
     if (err) throw err
     for (let i = 0; i < files.length; i++) {
         let j: IApplication = JSON.parse(fs.readFileSync(`${testFolder}/${files[i]}`, 'utf8'))
-        validateJSON(j)
-        allApps.push()
+        try {
+            validateJSON(j)
+        } catch (err) {
+            passed = false
+        }
+        allApps.push(j)
     }
+
     fs.open(`${testFolder}/all.json`, 'w', function (err: Error, dir: String) {
         if (err) throw err
         fs.writeFileSync(`${testFolder}/all.json`, JSON.stringify(allApps, null, 4))
     });
-
-    signale.complete(`All ${files.length} files completed validation`)
+    if (passed) {
+        signale.complete(`All ${files.length} files completed validation`)
+    } else {
+        signale.fatal('Files did not complete validation')
+    }
 })
 
 
