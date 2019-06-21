@@ -1,11 +1,11 @@
-import bodyParser from "body-parser"
-import cookieParser from "cookie-parser"
-import cors from "cors"
-import { config } from "dotenv"
-import express from "express"
-import morgan from "morgan"
-import signale from "signale"
-import { applicationsRouter } from "./routes/applications"
+import bodyParser from "body-parser";
+import cookieParser from "cookie-parser";
+import cors from "cors";
+import { config } from "dotenv";
+import express from "express";
+import morgan from "morgan";
+import signale from "signale";
+import { applicationsRouter } from "./routes/applications";
 
 config();
 const PORT = process.env.PORT || 3000;
