@@ -4,8 +4,12 @@
   "description": "Onos App Registry",
   "main": "./build/app.js",
   "scripts": {
-    "build": "rm -rf build/* && tsc --project tsconfig.json --watch false",
-    "start": "npm run build && npm run copy && node .",
+    "clear": "rm -rf build/* ",
+    "build:ts": "tsc --project tsconfig.json --watch false",
+    "build:json": "node build/scripts/buildjson.js",
+    "build": "npm run clear && npm run build:ts && npm run copy && npm run build:json",
+    "test": "npm run build && mocha build/tests --exit",
+    "start": "npm run build && node .",
     "watch": "tsc --project tsconfig.json --watch true",
     "dev": "nodemon .",
     "copy": "cp -a src/apps build/apps"
@@ -35,6 +39,7 @@
     "@types/yargs": "^13.0.0",
     "bcrypt": "^3.0.6",
     "body-parser": "^1.19.0",
+    "chai-http": "^4.3.0",
     "cookie-parser": "^1.4.4",
     "cors": "^2.8.5",
     "dotenv": "^8.0.0",
@@ -50,6 +55,11 @@
     "yargs": "^13.2.4"
   },
   "devDependencies": {
-    "nodemon": "^1.19.1"
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "nodemon": "^1.19.1",
+    "ts-node": "^8.3.0"
   }
 }
