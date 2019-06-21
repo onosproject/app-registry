@@ -4,8 +4,12 @@
   "description": "Onos App Registry",
   "main": "./build/app.js",
   "scripts": {
-    "build": "rm -rf build/* && tsc --project tsconfig.json --watch false",
-    "start": "npm run build && npm run copy && node .",
+    "clear": "rm -rf build/* ",
+    "build:ts": "tsc --project tsconfig.json --watch false",
+    "build:json": "node build/scripts/buildjson.js",
+    "build": "npm run clear && npm run build:ts && npm run copy && npm run build:json",
+    "test": "npm run build",
+    "start": "npm run build && node .",
     "watch": "tsc --project tsconfig.json --watch true",
     "dev": "nodemon .",
     "copy": "cp -a src/apps build/apps"
