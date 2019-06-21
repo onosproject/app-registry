@@ -1,0 +1,16 @@
+{
+    "category": "Policy Framework",
+    "title": "Firewall policy",
+    "url": "http://ngpaas.eu",
+    "maintainer": "NGPaaS",
+    "repo": "https://github.com/sdnpdtu/NPF_PT_Firewall",
+    "readme": "https://github.com/sdnpdtu/NPF_PT_Firewall/README.md",
+    "versions": {
+        "1.0.0": {
+            "oarURL": "https://github.com/sdnpdtu/NPF_PT_Firewall/blob/master/target/ngpaas-firewallpolicy-1.0-SNAPSHOT.oar",
+            "onosVersion": "1.15.0"
+        }
+    },
+    "id": "eu.ngpaas.fw",
+    "author": "ONOS Community/NGPaaS-eu-project"
+}

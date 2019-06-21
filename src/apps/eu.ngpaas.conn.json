@@ -1,0 +1,16 @@
+{
+    "category": "Policy Framework",
+    "title": "Connectivity policy",
+    "url": "http://ngpaas.eu",
+    "maintainer": "NGPaaS",
+    "repo": "https://github.com/sdnpdtu/NPF_PT_Connectivity",
+    "readme": "https://github.com/sdnpdtu/NPF_PT_Connectivity/README.md",
+    "versions": {
+        "1.0.0": {
+            "oarURL": "https://github.com/sdnpdtu/NPF_PT_Connectivity/blob/master/target/ngpaas-connectivitypolicy-1.0-SNAPSHOT.oar",
+            "onosVersion": "1.15.0"
+        }
+    },
+    "id": "eu.ngpaas.conn",
+    "author": "ONOS Community/NGPaaS-eu-project"
+}
