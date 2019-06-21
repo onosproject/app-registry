@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/onosproject/app-registry.svg?branch=master)](https://travis-ci.org/onosproject/app-registry)
+
 # App Registry
 
   - Hosts API and Portal for ONOS and µONOS applications
@@ -13,55 +15,56 @@ npm start
 **GET** `/api/applications` - Returns a list of all applications
 
 Query strings:
+
 | Name      | Description | Example | Optional |
 | ----------- | ----------- | ----------- | ------- |
 | id      | App ID  | org.onosproject.drivers.arista | true |
-| version   | Compatible ONOS version number        | 2.1.0 | true |
+| onosVersion   | Compatible ONOS version number        | 2.1.0 | true |
 
 On Success:
 `200 OK` 
 ```
-[  
-   {  
-      "category":"Drivers",
-      "title":"Arista Drivers",
-      "url":"http://onosproject.org",
-      "maintainer":"ONF",
-      "repo":"https://github.com/opennetworkinglab/onos",
-      "readme":"https://github.com/opennetworkinglab/onos/tree/master/drivers/arista/README.md",
-      "versions":{  
-         "2.0.0":{  
-            "version":"2.0.0",
-            "oarURL":"http://repo1.maven.org/maven2/org/onosproject/onos-drivers-arista-oar/2.0.0/onos-drivers-arista-oar-2.0.0.oar"
-         },
-         "2.1.0":{  
-            "version":"2.1.0",
-            "oarURL":"http://repo1.maven.org/maven2/org/onosproject/onos-drivers-arista-oar/2.1.0/onos-drivers-arista-oar-2.1.0.oar"
-         }
-      },
-      "id":"org.onosproject.drivers.arista",
-      "author":"ONOS Community"
-   },
-   {  
-      "category":"Drivers",
-      "title":"Polatis Device Drivers",
-      "url":"http://www.polatis.com",
-      "maintainer":"ONF",
-      "repo":"https://github.com/opennetworkinglab/onos",
-      "readme":"https://github.com/opennetworkinglab/onos/tree/master/drivers/polatis/netconf/README.md",
-      "versions":{  
-         "2.0.0":{  
-            "version":"2.0.0",
-            "oarURL":"http://repo1.maven.org/maven2/org/onosproject/onos-drivers-polatis-netconf-oar/2.0.0/onos-drivers-polatis-netconf-oar-2.0.0.oar"
-         },
-         "2.1.0":{  
-            "version":"2.1.0",
-            "oarURL":"http://repo1.maven.org/maven2/org/onosproject/onos-drivers-polatis-netconf-oar/2.1.0/onos-drivers-polatis-netconf-oar-2.1.0.oar"
-         }
-      },
-      "id":"org.onosproject.drivers.polatis.netconf",
-      "author":"ONOS Community"
-   }
+[
+    {
+        "category": "Security",
+        "title": "Access Control Lists",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/acl/README.md",
+        "versions": {
+            "2.0.0": {
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-acl-oar/2.0.0/onos-apps-acl-oar-2.0.0.oar",
+                "onosVersion": "2.0.0"
+            },
+            "2.1.0": {
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-acl-oar/2.1.0/onos-apps-acl-oar-2.1.0.oar",
+                "onosVersion": "2.1.0"
+            }
+        },
+        "id": "org.onosproject.acl",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Monitoring",
+        "title": "Artemis",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/artemis/README.md",
+        "versions": {
+            "2.0.0": {
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-artemis-oar/2.0.0/onos-apps-artemis-oar-2.0.0.oar",
+                "onosVersion": "2.0.0"
+            },
+            "2.1.0": {
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-artemis-oar/2.1.0/onos-apps-artemis-oar-2.1.0.oar",
+                "onosVersion": "2.1.0"
+            }
+        },
+        "id": "org.onosproject.artemis",
+        "author": "ONOS Community"
+    }
 ]
 ```
 
