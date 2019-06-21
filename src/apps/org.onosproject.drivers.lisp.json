@@ -1,0 +1,20 @@
+{
+    "category": "Drivers",
+    "title": "Generic LISP Drivers",
+    "url": "https://wiki.onosproject.org/display/ONOS/LISP+as+SBI",
+    "maintainer": "ONF",
+    "repo": "https://github.com/opennetworkinglab/onos",
+    "readme": "https://github.com/opennetworkinglab/onos/tree/master/drivers/lisp/README.md",
+    "versions": {
+        "2.0.0": {
+            "version": "2.0.0",
+            "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-lisp-oar/2.0.0/onos-drivers-lisp-oar-2.0.0.oar"
+        },
+        "2.1.0": {
+            "version": "2.1.0",
+            "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-lisp-oar/2.1.0/onos-drivers-lisp-oar-2.1.0.oar"
+        }
+    },
+    "id": "org.onosproject.drivers.lisp",
+    "author": "ONOS Community"
+}

@@ -1,0 +1,55 @@
+{
+  "name": "app-registry",
+  "version": "1.0.0",
+  "description": "Onos App Registry",
+  "main": "./build/app.js",
+  "scripts": {
+    "build": "rm -rf build/* && tsc --project tsconfig.json --watch false",
+    "start": "npm run build && npm run copy && node .",
+    "watch": "tsc --project tsconfig.json --watch true",
+    "dev": "nodemon .",
+    "copy": "cp -a src/apps build/apps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onosproject/app-registry.git"
+  },
+  "author": "Open Networking Foundation",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onosproject/app-registry/issues"
+  },
+  "homepage": "https://github.com/onosproject/app-registry#readme",
+  "dependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/cookie-parser": "^1.4.1",
+    "@types/cors": "^2.8.5",
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^4.16.1",
+    "@types/jsonwebtoken": "^8.3.2",
+    "@types/lodash": "^4.14.133",
+    "@types/mongoose": "^5.5.3",
+    "@types/morgan": "^1.7.35",
+    "@types/request-promise": "^4.1.44",
+    "@types/signale": "^1.2.1",
+    "@types/yargs": "^13.0.0",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^5.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.6.0",
+    "morgan": "^1.9.1",
+    "request-promise": "^4.2.4",
+    "signale": "^1.4.0",
+    "typescript": "^3.5.1",
+    "yargs": "^13.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}

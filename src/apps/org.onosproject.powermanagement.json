@@ -1,0 +1,20 @@
+{
+    "category": "Monitoring",
+    "title": "Power Management",
+    "url": "http://onosproject.org",
+    "maintainer": "ONF",
+    "repo": "https://github.com/opennetworkinglab/onos",
+    "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/powermanagement/README.md",
+    "versions": {
+        "2.0.0": {
+            "version": "2.0.0",
+            "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-powermanagement-oar/2.0.0/onos-apps-powermanagement-oar-2.0.0.oar"
+        },
+        "2.1.0": {
+            "version": "2.1.0",
+            "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-powermanagement-oar/2.1.0/onos-apps-powermanagement-oar-2.1.0.oar"
+        }
+    },
+    "id": "org.onosproject.powermanagement",
+    "author": "ONOS Community"
+}

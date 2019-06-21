@@ -1,0 +1,20 @@
+{
+    "category": "Traffic Engineering",
+    "title": "Multicast traffic control",
+    "url": "https://wiki.onosproject.org/",
+    "maintainer": "ONF",
+    "repo": "https://github.com/opennetworkinglab/onos",
+    "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/mcast/README.md",
+    "versions": {
+        "2.0.0": {
+            "version": "2.0.0",
+            "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-mcast-oar/2.0.0/onos-apps-mcast-oar-2.0.0.oar"
+        },
+        "2.1.0": {
+            "version": "2.1.0",
+            "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-mcast-oar/2.1.0/onos-apps-mcast-oar-2.1.0.oar"
+        }
+    },
+    "id": "org.onosproject.mcast",
+    "author": "ONOS Community"
+}

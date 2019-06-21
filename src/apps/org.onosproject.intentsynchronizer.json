@@ -1,0 +1,9 @@
+{
+    "category": "Utility",
+    "title": "Intent Synchronizer",
+    "url": "http://onosproject.org",
+    "maintainer": "ONF",
+    "repo": "htt",
+    "id": "org.onosproject.intentsynchronizer",
+    "author": "ONOS Community"
+}

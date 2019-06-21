@@ -1,0 +1,20 @@
+{
+    "category": "Utility",
+    "title": "RESTCONF Application Module",
+    "url": "http://onosproject.org",
+    "maintainer": "ONF",
+    "repo": "https://github.com/opennetworkinglab/onos",
+    "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/restconf/README.md",
+    "versions": {
+        "2.0.0": {
+            "version": "2.0.0",
+            "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-restconf-oar/2.0.0/onos-apps-restconf-oar-2.0.0.oar"
+        },
+        "2.1.0": {
+            "version": "2.1.0",
+            "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-restconf-oar/2.1.0/onos-apps-restconf-oar-2.1.0.oar"
+        }
+    },
+    "id": "org.onosproject.restconf",
+    "author": "ONOS Community"
+}
