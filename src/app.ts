@@ -9,6 +9,7 @@ import morgan from 'morgan'
 
 config()
 const PORT = process.env.PORT || 3000
+
 const app = express()
 
 app.use(
@@ -22,6 +23,7 @@ app.use(
 app.use(bodyParser.json())
 app.use(cookieParser())
 app.use(express.static('public'))
+
 if (process.env.NODE_ENV === 'production') app.use(morgan('combined'))
 app.use('/api/applications', applicationsRouter)
 

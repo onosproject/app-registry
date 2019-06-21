@@ -13,6 +13,7 @@ npm start
 **GET** `/api/applications` - Returns a list of all applications
 
 Query strings:
+
 | Name      | Description | Example | Optional |
 | ----------- | ----------- | ----------- | ------- |
 | id      | App ID  | org.onosproject.drivers.arista | true |
