@@ -1,0 +1,3171 @@
+[
+    {
+        "category": "Drivers",
+        "title": "Arista Drivers",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/drivers/arista/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-arista-oar/2.0.0/onos-drivers-arista-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-arista-oar/2.1.0/onos-drivers-arista-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.drivers.arista",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Drivers",
+        "title": "Polatis Device Drivers",
+        "url": "http://www.polatis.com",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/drivers/polatis/netconf/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-polatis-netconf-oar/2.0.0/onos-drivers-polatis-netconf-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-polatis-netconf-oar/2.1.0/onos-drivers-polatis-netconf-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.drivers.polatis.netconf",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Drivers",
+        "title": "Polatis SNMP Device Drivers",
+        "url": "http://www.polatis.com",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/drivers/polatis/snmp/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-polatis-snmp-oar/2.0.0/onos-drivers-polatis-snmp-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-polatis-snmp-oar/2.1.0/onos-drivers-polatis-snmp-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.drivers.polatis.snmp",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Drivers",
+        "title": "Polatis OpenFlow Device Drivers",
+        "url": "http://www.polatis.com",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/drivers/polatis/openflow/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-polatis-openflow-oar/2.0.0/onos-drivers-polatis-openflow-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-polatis-openflow-oar/2.1.0/onos-drivers-polatis-openflow-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.drivers.polatis.openflow",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Drivers",
+        "title": "Oplink Drivers",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/drivers/oplink/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-oplink-oar/2.0.0/onos-drivers-oplink-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-oplink-oar/2.1.0/onos-drivers-oplink-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.drivers.oplink",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Drivers",
+        "title": "Generic NETCONF Drivers",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/drivers/netconf/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-netconf-oar/2.0.0/onos-drivers-netconf-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-netconf-oar/2.1.0/onos-drivers-netconf-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.drivers.netconf",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Drivers",
+        "title": "Generic LISP Drivers",
+        "url": "https://wiki.onosproject.org/display/ONOS/LISP+as+SBI",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/drivers/lisp/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-lisp-oar/2.0.0/onos-drivers-lisp-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-lisp-oar/2.1.0/onos-drivers-lisp-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.drivers.lisp",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Drivers",
+        "title": "Huawei Drivers",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/drivers/huawei/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-huawei-oar/2.0.0/onos-drivers-huawei-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-huawei-oar/2.1.0/onos-drivers-huawei-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.drivers.huawei",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Drivers",
+        "title": "HP Drivers",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/drivers/hp/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-hp-oar/2.0.0/onos-drivers-hp-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-hp-oar/2.1.0/onos-drivers-hp-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.drivers.hp",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Drivers",
+        "title": "Ciena Waveserver Drivers",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/drivers/ciena/waveserver/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-ciena-waveserver-oar/2.0.0/onos-drivers-ciena-waveserver-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-ciena-waveserver-oar/2.1.0/onos-drivers-ciena-waveserver-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.drivers.ciena.waveserver",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Drivers",
+        "title": "Ciena 5170 Drivers",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/drivers/ciena/c5170/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-ciena-c5170-oar/2.0.0/onos-drivers-ciena-c5170-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-ciena-c5170-oar/2.1.0/onos-drivers-ciena-c5170-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.drivers.ciena.c5170",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Drivers",
+        "title": "Ciena 5162 Drivers",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/drivers/ciena/c5162/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-ciena-c5162-oar/2.0.0/onos-drivers-ciena-c5162-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-ciena-c5162-oar/2.1.0/onos-drivers-ciena-c5162-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.drivers.ciena.c5162",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Drivers",
+        "title": "Ciena Waveserver Ai Drivers",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/drivers/ciena/waveserverai/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-ciena-waveserverai-oar/2.0.0/onos-drivers-ciena-waveserverai-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-ciena-waveserverai-oar/2.1.0/onos-drivers-ciena-waveserverai-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.drivers.ciena.waveserverai",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Drivers",
+        "title": "gNMI Drivers",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/drivers/gnmi/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-gnmi-oar/2.0.0/onos-drivers-gnmi-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-gnmi-oar/2.1.0/onos-drivers-gnmi-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.drivers.gnmi",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Drivers",
+        "title": "Fujitsu Drivers",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/drivers/fujitsu/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-fujitsu-oar/2.0.0/onos-drivers-fujitsu-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-fujitsu-oar/2.1.0/onos-drivers-fujitsu-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.drivers.fujitsu",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Drivers",
+        "title": "P4Runtime Drivers",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/drivers/p4runtime/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-p4runtime-oar/2.0.0/onos-drivers-p4runtime-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-p4runtime-oar/2.1.0/onos-drivers-p4runtime-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.drivers.p4runtime",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Drivers",
+        "title": "Default Drivers",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/drivers/default/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-default-oar/2.0.0/onos-drivers-default-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-default-oar/2.1.0/onos-drivers-default-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.drivers",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Drivers",
+        "title": "Server Device Drivers",
+        "url": "https://github.com/gkatsikas/onos/tree/metron-driver",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/drivers/server/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-server-oar/2.0.0/onos-drivers-server-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-server-oar/2.1.0/onos-drivers-server-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.drivers.server",
+        "author": "KTH Royal Institute of Technology &amp; RISE SICS"
+    },
+    {
+        "category": "Drivers",
+        "title": "Cisco NETCONF Drivers",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/drivers/cisco/netconf/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-cisco-netconf-oar/2.0.0/onos-drivers-cisco-netconf-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-cisco-netconf-oar/2.1.0/onos-drivers-cisco-netconf-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.drivers.cisco.netconf",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Drivers",
+        "title": "Cisco REST Drivers",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/drivers/cisco/rest/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-cisco-rest-oar/2.0.0/onos-drivers-cisco-rest-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-cisco-rest-oar/2.1.0/onos-drivers-cisco-rest-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.drivers.cisco.rest",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Drivers",
+        "title": "Mellanox Drivers",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/drivers/mellanox/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-mellanox-oar/2.0.0/onos-drivers-mellanox-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-mellanox-oar/2.1.0/onos-drivers-mellanox-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.drivers.mellanox",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Drivers",
+        "title": "Stratum Drivers",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/drivers/stratum/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-stratum-oar/2.0.0/onos-drivers-stratum-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-stratum-oar/2.1.0/onos-drivers-stratum-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.drivers.stratum",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Drivers",
+        "title": "Generic OVSDB Drivers",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/drivers/ovsdb/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-ovsdb-oar/2.0.0/onos-drivers-ovsdb-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-ovsdb-oar/2.1.0/onos-drivers-ovsdb-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.drivers.ovsdb",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Drivers",
+        "title": "Lumentum Drivers",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/drivers/lumentum/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-lumentum-oar/2.0.0/onos-drivers-lumentum-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-lumentum-oar/2.1.0/onos-drivers-lumentum-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.drivers.lumentum",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Drivers",
+        "title": "Basic Optical Drivers",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/drivers/optical/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-optical-oar/2.0.0/onos-drivers-optical-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-optical-oar/2.1.0/onos-drivers-optical-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.drivers.optical",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Drivers",
+        "title": "Juniper Drivers",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/drivers/juniper/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-juniper-oar/2.0.0/onos-drivers-juniper-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-juniper-oar/2.1.0/onos-drivers-juniper-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.drivers.juniper",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Drivers",
+        "title": "Microsemi Drivers EA1000",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/drivers/microsemi/ea1000/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-microsemi-ea1000-oar/2.0.0/onos-drivers-microsemi-ea1000-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-microsemi-ea1000-oar/2.1.0/onos-drivers-microsemi-ea1000-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.drivers.microsemi.ea1000",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Drivers",
+        "title": "Corsa Drivers",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/drivers/corsa/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-corsa-oar/2.0.0/onos-drivers-corsa-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-corsa-oar/2.1.0/onos-drivers-corsa-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.drivers.corsa",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Drivers",
+        "title": "ODTN Driver",
+        "url": "https://wiki.onosproject.org/display/ODTN/ODTN",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/drivers/odtn-driver/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-odtn-driver-oar/2.0.0/onos-drivers-odtn-driver-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-odtn-driver-oar/2.1.0/onos-drivers-odtn-driver-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.drivers.odtn-driver",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Drivers",
+        "title": "Generic Flow Spec Drivers",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/drivers/flowspec/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-flowspec-oar/2.0.0/onos-drivers-flowspec-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-flowspec-oar/2.1.0/onos-drivers-flowspec-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.drivers.flowspec",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Drivers",
+        "title": "BMv2 Drivers",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/drivers/bmv2/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-bmv2-oar/2.0.0/onos-drivers-bmv2-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-bmv2-oar/2.1.0/onos-drivers-bmv2-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.drivers.bmv2",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Drivers",
+        "title": "Barefoot Drivers",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/drivers/barefoot/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-barefoot-oar/2.0.0/onos-drivers-barefoot-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-barefoot-oar/2.1.0/onos-drivers-barefoot-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.drivers.barefoot",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Provider",
+        "title": "NETCONF Provider",
+        "url": "https://wiki.onosproject.org/display/ONOS/NETCONF",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/providers/netconf/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-netconf-oar/2.0.0/onos-providers-netconf-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-netconf-oar/2.1.0/onos-providers-netconf-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.netconf",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Provider",
+        "title": "LISP Provider",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/providers/lisp/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-lisp-oar/2.0.0/onos-providers-lisp-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-lisp-oar/2.1.0/onos-providers-lisp-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.lisp",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Provider",
+        "title": "Host Location Provider",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/providers/host/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-host-oar/2.0.0/onos-providers-host-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-host-oar/2.1.0/onos-providers-host-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.hostprovider",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Provider",
+        "title": "SNMP Provider",
+        "url": "https://wiki.onosproject.org/display/ONOS/SNMP",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/providers/snmp/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-snmp-oar/2.0.0/onos-providers-snmp-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-snmp-oar/2.1.0/onos-providers-snmp-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.snmp",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Provider",
+        "title": "General Device Provider",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/providers/general/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-general-oar/2.0.0/onos-providers-general-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-general-oar/2.1.0/onos-providers-general-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.generaldeviceprovider",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Provider",
+        "title": "LLDP Link Provider",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/providers/lldp/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-lldp-oar/2.0.0/onos-providers-lldp-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-lldp-oar/2.1.0/onos-providers-lldp-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.lldpprovider",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Provider",
+        "title": "P4Runtime Provider",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/providers/p4runtime/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-p4runtime-oar/2.0.0/onos-providers-p4runtime-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-p4runtime-oar/2.1.0/onos-providers-p4runtime-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.p4runtime",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Provider",
+        "title": "OpenFlow Provider Suite",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/providers/openflow/app/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-openflow-app-oar/2.0.0/onos-providers-openflow-app-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-openflow-app-oar/2.1.0/onos-providers-openflow-app-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.openflow",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Provider",
+        "title": "Control Message Stats Provider",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/providers/openflow/message/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-openflow-message-oar/2.0.0/onos-providers-openflow-message-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-openflow-message-oar/2.1.0/onos-providers-openflow-message-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.openflow-message",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Provider",
+        "title": "OpenFlow Base Provider",
+        "url": "https://wiki.onosproject.org/display/ONOS/OpenFlow",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/providers/openflow/base/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-openflow-base-oar/2.0.0/onos-providers-openflow-base-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-openflow-base-oar/2.1.0/onos-providers-openflow-base-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.openflow-base",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Provider",
+        "title": "PCEP Provider",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/providers/pcep/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-pcep-oar/2.0.0/onos-providers-pcep-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-pcep-oar/2.1.0/onos-providers-pcep-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.pcep",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Provider",
+        "title": "OVSDB host Provider",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/providers/ovsdb/host/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-ovsdb-host-oar/2.0.0/onos-providers-ovsdb-host-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-ovsdb-host-oar/2.1.0/onos-providers-ovsdb-host-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.ovsdbhostprovider",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Provider",
+        "title": "OVSDB Southbound Meta",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/providers/ovsdb/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-ovsdb-oar/2.0.0/onos-providers-ovsdb-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-ovsdb-oar/2.1.0/onos-providers-ovsdb-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.ovsdb",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Provider",
+        "title": "OVSDB Provider",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/providers/ovsdb/base/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-ovsdb-base-oar/2.0.0/onos-providers-ovsdb-base-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-ovsdb-base-oar/2.1.0/onos-providers-ovsdb-base-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.ovsdb-base",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Provider",
+        "title": "Network Config Host Provider",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/providers/netcfghost/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-netcfghost-oar/2.0.0/onos-providers-netcfghost-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-netcfghost-oar/2.1.0/onos-providers-netcfghost-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.netcfghostprovider",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Provider",
+        "title": "Link Discovery Provider",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/providers/link/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-link-oar/2.0.0/onos-providers-link-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-link-oar/2.1.0/onos-providers-link-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.linkdiscovery",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Test Utility",
+        "title": "Null Provider Suite",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/providers/null/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-null-oar/2.0.0/onos-providers-null-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-null-oar/2.1.0/onos-providers-null-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.null",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Provider",
+        "title": "TL1 Provider",
+        "url": "https://wiki.onosproject.org/display/ONOS/TL1",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/providers/tl1/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-tl1-oar/2.0.0/onos-providers-tl1-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-tl1-oar/2.1.0/onos-providers-tl1-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.tl1",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Provider",
+        "title": "XMPP Device Provider",
+        "url": "https://wiki.onosproject.org/display/ONOS/XMPP+as+SBI",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/providers/xmpp/device/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-xmpp-device-oar/2.0.0/onos-providers-xmpp-device-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-xmpp-device-oar/2.1.0/onos-providers-xmpp-device-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.xmpp.device",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Provider",
+        "title": "BGPCEP Provider",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/providers/bgpcep/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-bgpcep-oar/2.0.0/onos-providers-bgpcep-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-bgpcep-oar/2.1.0/onos-providers-bgpcep-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.bgpcep",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Provider",
+        "title": "Host Probing Provider",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/providers/hostprobing/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-hostprobing-oar/2.0.0/onos-providers-hostprobing-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-hostprobing-oar/2.1.0/onos-providers-hostprobing-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.hostprobingprovider",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Provider",
+        "title": "BGP Provider",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/providers/bgp/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-bgp-oar/2.0.0/onos-providers-bgp-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-bgp-oar/2.1.0/onos-providers-bgp-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.bgp",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Provider",
+        "title": "Network Config Link Provider",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/providers/netcfglinks/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-netcfglinks-oar/2.0.0/onos-providers-netcfglinks-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-netcfglinks-oar/2.1.0/onos-providers-netcfglinks-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.netcfglinksprovider",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Provider",
+        "title": "REST Provider",
+        "url": "https://wiki.onosproject.org/display/ONOS/REST",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/providers/rest/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-rest-oar/2.0.0/onos-providers-rest-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-rest-oar/2.1.0/onos-providers-rest-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.restsb",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Provider",
+        "title": "ISIS Provider",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/providers/isis/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-isis-oar/2.0.0/onos-providers-isis-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-isis-oar/2.1.0/onos-providers-isis-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.isis",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Pipeline",
+        "title": "Basic Pipelines",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/pipelines/basic/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-pipelines-basic-oar/2.0.0/onos-pipelines-basic-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-pipelines-basic-oar/2.1.0/onos-pipelines-basic-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.pipelines.basic",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Pipeline",
+        "title": "Fabric Pipeline",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/pipelines/fabric/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-pipelines-fabric-oar/2.0.0/onos-pipelines-fabric-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-pipelines-fabric-oar/2.1.0/onos-pipelines-fabric-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.pipelines.fabric",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Monitoring",
+        "title": "P4 In-band Network Telemetry Service",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/inbandtelemetry/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-inbandtelemetry-oar/2.0.0/onos-apps-inbandtelemetry-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-inbandtelemetry-oar/2.1.0/onos-apps-inbandtelemetry-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.inbandtelemetry",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Optical",
+        "title": "Packet/Optical Use-Case",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/newoptical/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-newoptical-oar/2.0.0/onos-apps-newoptical-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-newoptical-oar/2.1.0/onos-apps-newoptical-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.newoptical",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Traffic Engineering",
+        "title": "Reactive Forwarding",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/fwd/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-fwd-oar/2.0.0/onos-apps-fwd-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-fwd-oar/2.1.0/onos-apps-fwd-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.fwd",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Monitoring",
+        "title": "Topology &amp; Intent Metrics",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/metrics/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-metrics-oar/2.0.0/onos-apps-metrics-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-metrics-oar/2.1.0/onos-apps-metrics-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.metrics",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Traffic Engineering",
+        "title": "Virtual Broadband Gateway",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/virtualbng/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-virtualbng-oar/2.0.0/onos-apps-virtualbng-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-virtualbng-oar/2.1.0/onos-apps-virtualbng-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.virtualbng",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Integration",
+        "title": "OpenStack Networking Application",
+        "url": "https://wiki.onosproject.org/display/ONOS/SONA%3A+DC+Network+Virtualization",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/openstacknetworking/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-openstacknetworking-oar/2.0.0/onos-apps-openstacknetworking-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-openstacknetworking-oar/2.1.0/onos-apps-openstacknetworking-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.openstacknetworking",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "GUI",
+        "title": "Path Visualization",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/pathpainter/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-pathpainter-oar/2.0.0/onos-apps-pathpainter-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-pathpainter-oar/2.1.0/onos-apps-pathpainter-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.pathpainter",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Monitoring",
+        "title": "Control Plane Manager",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/cpman/app/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-cpman-app-oar/2.0.0/onos-apps-cpman-app-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-cpman-app-oar/2.1.0/onos-apps-cpman-app-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.cpman",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Traffic Engineering",
+        "title": "SONA SimpleFabric",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/simplefabric/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-simplefabric-oar/2.0.0/onos-apps-simplefabric-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-simplefabric-oar/2.1.0/onos-apps-simplefabric-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.simplefabric",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "GUI",
+        "title": "Driver Support Matrix",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/drivermatrix/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-drivermatrix-oar/2.0.0/onos-apps-drivermatrix-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-drivermatrix-oar/2.1.0/onos-apps-drivermatrix-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.drivermatrix",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Protocol",
+        "title": "NETCONF Protocol Subsystem",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/netconf/client/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-netconf-client-oar/2.0.0/onos-apps-netconf-client-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-netconf-client-oar/2.1.0/onos-apps-netconf-client-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.netconfsb",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Protocol",
+        "title": "PCEP Protocol API",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/pcep-api/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-pcep-api-oar/2.0.0/onos-apps-pcep-api-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-pcep-api-oar/2.1.0/onos-apps-pcep-api-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.pcep-api",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Monitoring",
+        "title": "Power Management",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/powermanagement/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-powermanagement-oar/2.0.0/onos-apps-powermanagement-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-powermanagement-oar/2.1.0/onos-apps-powermanagement-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.powermanagement",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Test Utility",
+        "title": "Flow Throughput Demo",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/test/demo/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-test-demo-oar/2.0.0/onos-apps-test-demo-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-test-demo-oar/2.1.0/onos-apps-test-demo-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.demo",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Test Utility",
+        "title": "Proxy Test",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/test/proxy/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-test-proxy-oar/2.0.0/onos-apps-test-proxy-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-test-proxy-oar/2.1.0/onos-apps-test-proxy-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.proxytest",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Test Utility",
+        "title": "Primitive Performance Test",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/test/primitive-perf/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-test-primitive-perf-oar/2.0.0/onos-apps-test-primitive-perf-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-test-primitive-perf-oar/2.1.0/onos-apps-test-primitive-perf-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.primitiveperf",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Test Utility",
+        "title": "Messaging Performance Test",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/test/messaging-perf/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-test-messaging-perf-oar/2.0.0/onos-apps-test-messaging-perf-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-test-messaging-perf-oar/2.1.0/onos-apps-test-messaging-perf-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.messaging-perf",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Test Utility",
+        "title": "Intent Performance Test",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/test/intent-perf/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-test-intent-perf-oar/2.0.0/onos-apps-test-intent-perf-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-test-intent-perf-oar/2.1.0/onos-apps-test-intent-perf-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.intentperf",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Test Utility",
+        "title": "Transaction Performance Test",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/test/transaction-perf/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-test-transaction-perf-oar/2.0.0/onos-apps-test-transaction-perf-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-test-transaction-perf-oar/2.1.0/onos-apps-test-transaction-perf-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.transaction-perf",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Test Utility",
+        "title": "Cluster HA Test",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/test/cluster-ha/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-test-cluster-ha-oar/2.0.0/onos-apps-test-cluster-ha-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-test-cluster-ha-oar/2.1.0/onos-apps-test-cluster-ha-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.cluster-ha",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Test Utility",
+        "title": "Network Configuration Monitor Test",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/test/netcfg-monitor/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-test-netcfg-monitor-oar/2.0.0/onos-apps-test-netcfg-monitor-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-test-netcfg-monitor-oar/2.1.0/onos-apps-test-netcfg-monitor-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.netcfg-monitor",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Test Utility",
+        "title": "Distributed Load Test",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/test/loadtest/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-test-loadtest-oar/2.0.0/onos-apps-test-loadtest-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-test-loadtest-oar/2.1.0/onos-apps-test-loadtest-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.loadtest",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Test Utility",
+        "title": "Route and Flow Scalability Test",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/test/route-scale/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-test-route-scale-oar/2.0.0/onos-apps-test-route-scale-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-test-route-scale-oar/2.1.0/onos-apps-test-route-scale-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.routescale",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Test Utility",
+        "title": "Distributed Primitives Test",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/test/distributed-primitives/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-test-distributed-primitives-oar/2.0.0/onos-apps-test-distributed-primitives-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-test-distributed-primitives-oar/2.1.0/onos-apps-test-distributed-primitives-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.distributedprimitives",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Test Utility",
+        "title": "Master Election Test",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/test/election/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-test-election-oar/2.0.0/onos-apps-test-election-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-test-election-oar/2.1.0/onos-apps-test-election-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.election",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Test Utility",
+        "title": "Flow Performance Test",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/test/flow-perf/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-test-flow-perf-oar/2.0.0/onos-apps-test-flow-perf-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-test-flow-perf-oar/2.1.0/onos-apps-test-flow-perf-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.flow-perf",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Utility",
+        "title": "YANG Compiler and Runtime",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/yang/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-yang-oar/2.0.0/onos-apps-yang-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-yang-oar/2.1.0/onos-apps-yang-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.yang",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Pipeconf",
+        "title": "P4 Tutorial Pipeconf",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/p4-tutorial/pipeconf/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-p4-tutorial-pipeconf-oar/2.0.0/onos-apps-p4-tutorial-pipeconf-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-p4-tutorial-pipeconf-oar/2.1.0/onos-apps-p4-tutorial-pipeconf-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.p4tutorial.pipeconf",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Traffic Engineering",
+        "title": "MyTunnel Demo App",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/p4-tutorial/mytunnel/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-p4-tutorial-mytunnel-oar/2.0.0/onos-apps-p4-tutorial-mytunnel-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-p4-tutorial-mytunnel-oar/2.1.0/onos-apps-p4-tutorial-mytunnel-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.p4tutorial.mytunnel",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Traffic Engineering",
+        "title": "IPv6 RA Generator",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/routeradvertisement/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-routeradvertisement-oar/2.0.0/onos-apps-routeradvertisement-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-routeradvertisement-oar/2.1.0/onos-apps-routeradvertisement-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.routeradvertisement",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Traffic Engineering",
+        "title": "YANG L3VPN",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/l3vpn/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-l3vpn-oar/2.0.0/onos-apps-l3vpn-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-l3vpn-oar/2.1.0/onos-apps-l3vpn-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.l3vpn",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Integration",
+        "title": "OpenStack Troubleshoot",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/openstacktroubleshoot/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-openstacktroubleshoot-oar/2.0.0/onos-apps-openstacktroubleshoot-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-openstacktroubleshoot-oar/2.1.0/onos-apps-openstacktroubleshoot-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.openstacktroubleshoot",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Utility",
+        "title": "DHCP Relay Agent",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/dhcprelay/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-dhcprelay-oar/2.0.0/onos-apps-dhcprelay-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-dhcprelay-oar/2.1.0/onos-apps-dhcprelay-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.dhcprelay",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Traffic Engineering",
+        "title": "Multicast traffic control",
+        "url": "https://wiki.onosproject.org/",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/mcast/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-mcast-oar/2.0.0/onos-apps-mcast-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-mcast-oar/2.1.0/onos-apps-mcast-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.mcast",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Utility",
+        "title": "Dynamic Configuration",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/config/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-config-oar/2.0.0/onos-apps-config-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-config-oar/2.1.0/onos-apps-config-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.config",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Integration",
+        "title": "OPNFV",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/vtn/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-vtn-oar/2.0.0/onos-apps-vtn-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-vtn-oar/2.1.0/onos-apps-vtn-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.vtn",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Traffic Engineering",
+        "title": "SDN-IP Reactive Routing",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/reactive-routing/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-reactive-routing-oar/2.0.0/onos-apps-reactive-routing-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-reactive-routing-oar/2.1.0/onos-apps-reactive-routing-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.reactive-routing",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "GUI",
+        "title": "UI Auto-Layout",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/layout/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-layout-oar/2.0.0/onos-apps-layout-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-layout-oar/2.1.0/onos-apps-layout-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.layout",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Integration",
+        "title": "Openstack Vtap Application",
+        "url": "https://wiki.onosproject.org/display/ONOS/SONA%3A+DC+Network+Virtualization",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/openstackvtap/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-openstackvtap-oar/2.0.0/onos-apps-openstackvtap-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-openstackvtap-oar/2.1.0/onos-apps-openstackvtap-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.openstackvtap",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Monitoring",
+        "title": "Artemis",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/artemis/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-artemis-oar/2.0.0/onos-apps-artemis-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-artemis-oar/2.1.0/onos-apps-artemis-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.artemis",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Utility",
+        "title": "Castor",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/castor/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-castor-oar/2.0.0/onos-apps-castor-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-castor-oar/2.1.0/onos-apps-castor-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.castor",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Traffic Engineering",
+        "title": "TE Tunnel Core",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/tetunnel/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-tetunnel-oar/2.0.0/onos-apps-tetunnel-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-tetunnel-oar/2.1.0/onos-apps-tetunnel-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.tetunnel",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Monitoring",
+        "title": "Graphite Report and Query",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/graphitemetrics/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-graphitemetrics-oar/2.0.0/onos-apps-graphitemetrics-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-graphitemetrics-oar/2.1.0/onos-apps-graphitemetrics-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.graphitemetrics",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Optical",
+        "title": "ROADM",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/roadm/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-roadm-oar/2.0.0/onos-apps-roadm-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-roadm-oar/2.1.0/onos-apps-roadm-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.roadm",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Integration",
+        "title": "OpenStack Telemetry Application",
+        "url": "https://wiki.onosproject.org/display/ONOS/SONA%3A+DC+Network+Virtualization",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/openstacktelemetry/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-openstacktelemetry-oar/2.0.0/onos-apps-openstacktelemetry-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-openstacktelemetry-oar/2.1.0/onos-apps-openstacktelemetry-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.openstacktelemetry",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Traffic Engineering",
+        "title": "ODTN API &amp; Utilities Application",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/odtn/api/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-odtn-api-oar/2.0.0/onos-apps-odtn-api-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-odtn-api-oar/2.1.0/onos-apps-odtn-api-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.odtn-api",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Traffic Engineering",
+        "title": "ODTN Service Application",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/odtn/service/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-odtn-service-oar/2.0.0/onos-apps-odtn-service-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-odtn-service-oar/2.1.0/onos-apps-odtn-service-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.odtn-service",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Monitoring",
+        "title": "Link Properties",
+        "url": "https://onosproject.org/",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/linkprops/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-linkprops-oar/2.0.0/onos-apps-linkprops-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-linkprops-oar/2.1.0/onos-apps-linkprops-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.linkprops",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Utility",
+        "title": "Cluster IP Alias",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/cip/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-cip-oar/2.0.0/onos-apps-cip-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-cip-oar/2.1.0/onos-apps-cip-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.cip",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Utility",
+        "title": "Packet Statistics",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/packet-stats/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-packet-stats-oar/2.0.0/onos-apps-packet-stats-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-packet-stats-oar/2.1.0/onos-apps-packet-stats-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.packet-stats",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Utility",
+        "title": "RESTCONF Application Module",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/restconf/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-restconf-oar/2.0.0/onos-apps-restconf-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-restconf-oar/2.1.0/onos-apps-restconf-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.restconf",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Monitoring",
+        "title": "Gluon Shim",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/gluon/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-gluon-oar/2.0.0/onos-apps-gluon-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-gluon-oar/2.1.0/onos-apps-gluon-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.gluon",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Utility",
+        "title": "Dynamic Configuration Synchronizer for NETCONF",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/configsync-netconf/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-configsync-netconf-oar/2.0.0/onos-apps-configsync-netconf-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-configsync-netconf-oar/2.1.0/onos-apps-configsync-netconf-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.configsync-netconf",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Integration",
+        "title": "Rabbit MQ Integration",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/rabbitmq/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-rabbitmq-oar/2.0.0/onos-apps-rabbitmq-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-rabbitmq-oar/2.1.0/onos-apps-rabbitmq-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.rabbitmq",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Utility",
+        "title": "Flowspec API",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/flowspec-api/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-flowspec-api-oar/2.0.0/onos-apps-flowspec-api-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-flowspec-api-oar/2.1.0/onos-apps-flowspec-api-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.flowspec-api",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Monitoring",
+        "title": "InfluxDB Report and Query",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/influxdbmetrics/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-influxdbmetrics-oar/2.0.0/onos-apps-influxdbmetrics-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-influxdbmetrics-oar/2.1.0/onos-apps-influxdbmetrics-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.influxdbmetrics",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Utilities",
+        "title": "Trellis Troubleshooting Toolkit",
+        "url": "https://wiki.opencord.org/pages/viewpage.action?pageId=4456974",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/t3/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-t3-oar/2.0.0/onos-apps-t3-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-t3-oar/2.1.0/onos-apps-t3-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.t3",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Traffic Engineering",
+        "title": "Intent Monitoring and Rerouting",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/imr/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-imr-oar/2.0.0/onos-apps-imr-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-imr-oar/2.1.0/onos-apps-imr-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.imr",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Traffic Engineering",
+        "title": "Tunnel Subsystem",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/tunnel/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-tunnel-oar/2.0.0/onos-apps-tunnel-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-tunnel-oar/2.1.0/onos-apps-tunnel-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.tunnel",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Optical",
+        "title": "Optical Network Model",
+        "url": "https://wiki.onosproject.org/x/C4m",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/optical-model/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-optical-model-oar/2.0.0/onos-apps-optical-model-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-optical-model-oar/2.1.0/onos-apps-optical-model-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.optical-model",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Integration",
+        "title": "Kafka Integration",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/kafka-integration/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-kafka-integration-oar/2.0.0/onos-apps-kafka-integration-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-kafka-integration-oar/2.1.0/onos-apps-kafka-integration-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.kafka-integration",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "default",
+        "title": "PCE",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/pce/app/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-pce-app-oar/2.0.0/onos-apps-pce-app-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-pce-app-oar/2.1.0/onos-apps-pce-app-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.pce.app",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "default",
+        "title": "PCE Bandwidth Management",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/pce/bandwidthmgmt/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-pce-bandwidthmgmt-oar/2.0.0/onos-apps-pce-bandwidthmgmt-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-pce-bandwidthmgmt-oar/2.1.0/onos-apps-pce-bandwidthmgmt-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.bandwidthmgmt",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Utility",
+        "title": "PCE REST API",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/pce/pceweb/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-pce-pceweb-oar/2.0.0/onos-apps-pce-pceweb-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-pce-pceweb-oar/2.1.0/onos-apps-pce-pceweb-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.pceweb",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Monitoring",
+        "title": "Ganglia Report and Query",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/gangliametrics/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-gangliametrics-oar/2.0.0/onos-apps-gangliametrics-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-gangliametrics-oar/2.1.0/onos-apps-gangliametrics-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.gangliametrics",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Traffic Engineering",
+        "title": "SDN-IP",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/sdnip/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-sdnip-oar/2.0.0/onos-apps-sdnip-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-sdnip-oar/2.1.0/onos-apps-sdnip-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.sdnip",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Monitoring",
+        "title": "Mapping Management",
+        "url": "https://onosproject.org/",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/mappingmanagement/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-mappingmanagement-oar/2.0.0/onos-apps-mappingmanagement-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-mappingmanagement-oar/2.1.0/onos-apps-mappingmanagement-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.mappingmanagement",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Traffic Engineering",
+        "title": "Protocol Independent Multicast Emulation",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/pim/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-pim-oar/2.0.0/onos-apps-pim-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-pim-oar/2.1.0/onos-apps-pim-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.pim",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Utility",
+        "title": "Route Service Server",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/route-service/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-route-service-oar/2.0.0/onos-apps-route-service-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-route-service-oar/2.1.0/onos-apps-route-service-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.route-service",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Optical",
+        "title": "Open ROADM",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/openroadm/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-openroadm-oar/2.0.0/onos-apps-openroadm-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-openroadm-oar/2.1.0/onos-apps-openroadm-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.openroadm",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Traffic Engineering",
+        "title": "TE Topology Core",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/tetopology/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-tetopology-oar/2.0.0/onos-apps-tetopology-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-tetopology-oar/2.1.0/onos-apps-tetopology-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.tetopology",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Monitoring",
+        "title": "Controller Monitor Application",
+        "url": "http://samsung.com",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/nodemetrics/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-nodemetrics-oar/2.0.0/onos-apps-nodemetrics-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-nodemetrics-oar/2.1.0/onos-apps-nodemetrics-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.nodemetrics",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Traffic Engineering",
+        "title": "EVPN Routing",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/evpn-route-service/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-evpn-route-service-oar/2.0.0/onos-apps-evpn-route-service-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-evpn-route-service-oar/2.1.0/onos-apps-evpn-route-service-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.evpn-route-service",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Utility",
+        "title": "Host Mobility",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/mobility/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-mobility-oar/2.0.0/onos-apps-mobility-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-mobility-oar/2.1.0/onos-apps-mobility-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.mobility",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "GUI",
+        "title": "YANG Runtime GUI",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/yang-gui/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-yang-gui-oar/2.0.0/onos-apps-yang-gui-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-yang-gui-oar/2.1.0/onos-apps-yang-gui-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.yang-gui",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Traffic Engineering",
+        "title": "Multicast Forwarding",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/mfwd/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-mfwd-oar/2.0.0/onos-apps-mfwd-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-mfwd-oar/2.1.0/onos-apps-mfwd-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.mfwd",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Utility",
+        "title": "Workflow",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/workflow/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-workflow-oar/2.0.0/onos-apps-workflow-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-workflow-oar/2.1.0/onos-apps-workflow-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.workflow",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Utility",
+        "title": "DHCP Server",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/dhcp/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-dhcp-oar/2.0.0/onos-apps-dhcp-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-dhcp-oar/2.1.0/onos-apps-dhcp-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.dhcp",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Traffic Engineering",
+        "title": "Virtual Network Subsystem",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/virtual/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-virtual-oar/2.0.0/onos-apps-virtual-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-virtual-oar/2.1.0/onos-apps-virtual-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.virtual",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Integration",
+        "title": "OpenStack Node Bootstrap",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/openstacknode/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-openstacknode-oar/2.0.0/onos-apps-openstacknode-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-openstacknode-oar/2.1.0/onos-apps-openstacknode-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.openstacknode",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Optical",
+        "title": "Optical Network Model REST API",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/optical-rest/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-optical-rest-oar/2.0.0/onos-apps-optical-rest-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-optical-rest-oar/2.1.0/onos-apps-optical-rest-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.optical-rest",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Traffic Engineering",
+        "title": "OpenFlow Agent",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/ofagent/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-ofagent-oar/2.0.0/onos-apps-ofagent-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-ofagent-oar/2.1.0/onos-apps-ofagent-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.ofagent",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Traffic Engineering",
+        "title": "BGP Router",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/bgprouter/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-bgprouter-oar/2.0.0/onos-apps-bgprouter-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-bgprouter-oar/2.1.0/onos-apps-bgprouter-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.bgprouter",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Traffic Engineering",
+        "title": "Virtual Router",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/vrouter/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-vrouter-oar/2.0.0/onos-apps-vrouter-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-vrouter-oar/2.1.0/onos-apps-vrouter-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.vrouter",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Traffic Engineering",
+        "title": "EVPN OpenFlow",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/evpnopenflow/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-evpnopenflow-oar/2.0.0/onos-apps-evpnopenflow-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-evpnopenflow-oar/2.1.0/onos-apps-evpnopenflow-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.evpnopenflow",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Integration",
+        "title": "CORD Support",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/cord-support/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-cord-support-oar/2.0.0/onos-apps-cord-support-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-cord-support-oar/2.1.0/onos-apps-cord-support-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.cord-support",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Traffic Engineering",
+        "title": "Scalable Gateway",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/scalablegateway/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-scalablegateway-oar/2.0.0/onos-apps-scalablegateway-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-scalablegateway-oar/2.1.0/onos-apps-scalablegateway-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.scalablegateway",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Traffic Engineering",
+        "title": "VLAN L2 Broadcast Network",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/vpls/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-vpls-oar/2.0.0/onos-apps-vpls-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-vpls-oar/2.1.0/onos-apps-vpls-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.vpls",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Traffic Engineering",
+        "title": "Control Plane Redirect",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/routing/cpr/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-routing-cpr-oar/2.0.0/onos-apps-routing-cpr-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-routing-cpr-oar/2.1.0/onos-apps-routing-cpr-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.cpr",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Utility",
+        "title": "FIB Push Manager (FPM) Route Receiver",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/routing/fpm/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-routing-fpm-oar/2.0.0/onos-apps-routing-fpm-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-routing-fpm-oar/2.1.0/onos-apps-routing-fpm-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.fpm",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Traffic Engineering",
+        "title": "FIB Installer",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/routing/fibinstaller/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-routing-fibinstaller-oar/2.0.0/onos-apps-routing-fibinstaller-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-routing-fibinstaller-oar/2.1.0/onos-apps-routing-fibinstaller-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.fibinstaller",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Traffic Steering",
+        "title": "Segment Routing",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/segmentrouting/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-segmentrouting-oar/2.0.0/onos-apps-segmentrouting-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-segmentrouting-oar/2.1.0/onos-apps-segmentrouting-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.segmentrouting",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Monitoring",
+        "title": "Fault Management",
+        "url": "https://wiki.onosproject.org/display/ONOS/Fault+Management",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/faultmanagement/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-faultmanagement-oar/2.0.0/onos-apps-faultmanagement-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-faultmanagement-oar/2.1.0/onos-apps-faultmanagement-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.faultmanagement",
+        "author": "BTI Systems"
+    },
+    {
+        "category": "Test Utility",
+        "title": "Event History",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/events/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-events-oar/2.0.0/onos-apps-events-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-events-oar/2.1.0/onos-apps-events-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.events",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Traffic Engineering",
+        "title": "dpistats Network Subsystem",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/dpistats/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-dpistats-oar/2.0.0/onos-apps-dpistats-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-dpistats-oar/2.1.0/onos-apps-dpistats-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.dpistats",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Monitoring",
+        "title": "Flow Space Analysis",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/flowanalyzer/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-flowanalyzer-oar/2.0.0/onos-apps-flowanalyzer-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-flowanalyzer-oar/2.1.0/onos-apps-flowanalyzer-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.flowanalyzer",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Security",
+        "title": "Access Control Lists",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/acl/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-acl-oar/2.0.0/onos-apps-acl-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-acl-oar/2.1.0/onos-apps-acl-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.acl",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Traffic Engineering",
+        "title": "Proxy ARP/NDP",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/proxyarp/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-proxyarp-oar/2.0.0/onos-apps-proxyarp-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-proxyarp-oar/2.1.0/onos-apps-proxyarp-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.proxyarp",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Monitoring",
+        "title": "Layer 2 Monitoring CFM Application",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "https://github.com/opennetworkinglab/onos",
+        "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/cfm/README.md",
+        "versions": {
+            "2.0.0": {
+                "version": "2.0.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-cfm-oar/2.0.0/onos-apps-cfm-oar-2.0.0.oar"
+            },
+            "2.1.0": {
+                "version": "2.1.0",
+                "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-cfm-oar/2.1.0/onos-apps-cfm-oar-2.1.0.oar"
+            }
+        },
+        "id": "org.onosproject.cfm",
+        "author": "ONOS Community"
+    },
+    {
+        "category": "Utility",
+        "title": "Intent Synchronizer",
+        "url": "http://onosproject.org",
+        "maintainer": "ONF",
+        "repo": "htt",
+        "id": "org.onosproject.intentsynchronizer",
+        "author": "ONOS Community"
+    }
+]

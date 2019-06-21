@@ -1,0 +1,20 @@
+{
+    "category": "Drivers",
+    "title": "Server Device Drivers",
+    "url": "https://github.com/gkatsikas/onos/tree/metron-driver",
+    "maintainer": "ONF",
+    "repo": "https://github.com/opennetworkinglab/onos",
+    "readme": "https://github.com/opennetworkinglab/onos/tree/master/drivers/server/README.md",
+    "versions": {
+        "2.0.0": {
+            "version": "2.0.0",
+            "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-server-oar/2.0.0/onos-drivers-server-oar-2.0.0.oar"
+        },
+        "2.1.0": {
+            "version": "2.1.0",
+            "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-server-oar/2.1.0/onos-drivers-server-oar-2.1.0.oar"
+        }
+    },
+    "id": "org.onosproject.drivers.server",
+    "author": "KTH Royal Institute of Technology &amp; RISE SICS"
+}

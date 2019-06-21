@@ -1,0 +1,20 @@
+{
+    "category": "Drivers",
+    "title": "ODTN Driver",
+    "url": "https://wiki.onosproject.org/display/ODTN/ODTN",
+    "maintainer": "ONF",
+    "repo": "https://github.com/opennetworkinglab/onos",
+    "readme": "https://github.com/opennetworkinglab/onos/tree/master/drivers/odtn-driver/README.md",
+    "versions": {
+        "2.0.0": {
+            "version": "2.0.0",
+            "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-odtn-driver-oar/2.0.0/onos-drivers-odtn-driver-oar-2.0.0.oar"
+        },
+        "2.1.0": {
+            "version": "2.1.0",
+            "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-odtn-driver-oar/2.1.0/onos-drivers-odtn-driver-oar-2.1.0.oar"
+        }
+    },
+    "id": "org.onosproject.drivers.odtn-driver",
+    "author": "ONOS Community"
+}

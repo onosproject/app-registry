@@ -1,0 +1,20 @@
+{
+    "category": "Optical",
+    "title": "Optical Network Model",
+    "url": "https://wiki.onosproject.org/x/C4m",
+    "maintainer": "ONF",
+    "repo": "https://github.com/opennetworkinglab/onos",
+    "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/optical-model/README.md",
+    "versions": {
+        "2.0.0": {
+            "version": "2.0.0",
+            "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-optical-model-oar/2.0.0/onos-apps-optical-model-oar-2.0.0.oar"
+        },
+        "2.1.0": {
+            "version": "2.1.0",
+            "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-optical-model-oar/2.1.0/onos-apps-optical-model-oar-2.1.0.oar"
+        }
+    },
+    "id": "org.onosproject.optical-model",
+    "author": "ONOS Community"
+}

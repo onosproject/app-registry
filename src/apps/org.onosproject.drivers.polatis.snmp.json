@@ -1,0 +1,20 @@
+{
+    "category": "Drivers",
+    "title": "Polatis SNMP Device Drivers",
+    "url": "http://www.polatis.com",
+    "maintainer": "ONF",
+    "repo": "https://github.com/opennetworkinglab/onos",
+    "readme": "https://github.com/opennetworkinglab/onos/tree/master/drivers/polatis/snmp/README.md",
+    "versions": {
+        "2.0.0": {
+            "version": "2.0.0",
+            "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-polatis-snmp-oar/2.0.0/onos-drivers-polatis-snmp-oar-2.0.0.oar"
+        },
+        "2.1.0": {
+            "version": "2.1.0",
+            "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-polatis-snmp-oar/2.1.0/onos-drivers-polatis-snmp-oar-2.1.0.oar"
+        }
+    },
+    "id": "org.onosproject.drivers.polatis.snmp",
+    "author": "ONOS Community"
+}

@@ -1,0 +1,20 @@
+{
+    "category": "Provider",
+    "title": "NETCONF Provider",
+    "url": "https://wiki.onosproject.org/display/ONOS/NETCONF",
+    "maintainer": "ONF",
+    "repo": "https://github.com/opennetworkinglab/onos",
+    "readme": "https://github.com/opennetworkinglab/onos/tree/master/providers/netconf/README.md",
+    "versions": {
+        "2.0.0": {
+            "version": "2.0.0",
+            "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-netconf-oar/2.0.0/onos-providers-netconf-oar-2.0.0.oar"
+        },
+        "2.1.0": {
+            "version": "2.1.0",
+            "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-providers-netconf-oar/2.1.0/onos-providers-netconf-oar-2.1.0.oar"
+        }
+    },
+    "id": "org.onosproject.netconf",
+    "author": "ONOS Community"
+}
