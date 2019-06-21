@@ -7,12 +7,12 @@
     "readme": "https://github.com/opennetworkinglab/onos/tree/master/apps/gluon/README.md",
     "versions": {
         "2.0.0": {
-            "version": "2.0.0",
-            "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-gluon-oar/2.0.0/onos-apps-gluon-oar-2.0.0.oar"
+            "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-gluon-oar/2.0.0/onos-apps-gluon-oar-2.0.0.oar",
+            "onosVersion": "2.0.0"
         },
         "2.1.0": {
-            "version": "2.1.0",
-            "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-gluon-oar/2.1.0/onos-apps-gluon-oar-2.1.0.oar"
+            "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-gluon-oar/2.1.0/onos-apps-gluon-oar-2.1.0.oar",
+            "onosVersion": "2.1.0"
         }
     },
     "id": "org.onosproject.gluon",

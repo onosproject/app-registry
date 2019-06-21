@@ -26,6 +26,7 @@ export function validateJSON(j: IApplication) {
         const version: IApplicationVersionListing = (j.versions as any)[vkey]
         if (!version.oarURL) { bad(j, "oarLink") }
         if (!validateOarLink) { bad(j, "oarLink") }
+        if (!version.onosVersion) { bad(j, "onosVersion") }
     }
     // signale.success(`[${j.id}]: validation passed`);
     return true

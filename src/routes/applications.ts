@@ -6,6 +6,7 @@ import { IApplication } from "../types/application"
 export const applicationsRouter = Router()
 
 // Store this in memory - always static
+// tslint:disable-next-line: max-line-length
 const APPS = JSON.parse(fs.readFileSync(path.join(__dirname, "../apps/all.json")) as unknown as string) as IApplication[]
 
 /**
@@ -13,7 +14,7 @@ const APPS = JSON.parse(fs.readFileSync(path.join(__dirname, "../apps/all.json")
  */
 applicationsRouter.get("/", async (req: Request, res: Response) => {
     try {
-        const { id, version } = req.query // pull query strings from request
+        const { id, onosVersion } = req.query // pull query strings from request
         let results = APPS
         if (id) {
             results = results.filter((x) => x.id === id)
@@ -21,12 +22,12 @@ applicationsRouter.get("/", async (req: Request, res: Response) => {
                 return res.status(400).json({ error: `No applications found with id: ${id}` })
             }
         }
-        if (version) {
+        if (onosVersion) {
             results = results.filter((x) =>
-                x.versions && (x.versions as any)[version],
+                x.versions && (x.versions as any)[onosVersion],
             )
             if (results.length === 0) {
-                return res.status(400).json({ error: `No applications found supporting version ${version}` })
+                return res.status(400).json({ error: `No applications found supporting version ${onosVersion}` })
             }
         }
         return res.json(results)

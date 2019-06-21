@@ -1,7 +1,7 @@
 import fs from "fs"
 import path from "path"
 import signale from "signale"
-import { IApplication, IApplicationVersionListing } from "../types/application"
+import { IApplication } from "../types/application"
 import { validateJSON } from "./validatejson"
 const testFolder = path.join(__dirname, "../apps")
 

@@ -13,5 +13,5 @@ export interface IApplication {
 }
 export interface IApplicationVersionListing {
     oarURL: string
-    version: string
+    onosVersion: string
 }

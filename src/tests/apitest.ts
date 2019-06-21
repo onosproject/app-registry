@@ -58,7 +58,7 @@ describe("api/applications", () => {
   describe(`Test version filtering`, () => {
     it("should return list of apps", (done) => {
       chai.request(app)
-        .get(`/api/applications?version=2.1.0`)
+        .get(`/api/applications?onosVersion=2.1.0`)
         .end((err: Error, res: any) => {
           res.should.have.status(200)
           res.body.should.be.a("array")
@@ -71,7 +71,7 @@ describe("api/applications", () => {
   describe(`Test invalid version`, () => {
     it("should return 400 error", (done) => {
       chai.request(app)
-        .get(`/api/applications?version=sdklfjdskljfsldkjflk`)
+        .get(`/api/applications?onosVersion=sdklfjdskljfsldkjflk`)
         .end((err: Error, res: any) => {
           res.should.have.status(400)
           done()
