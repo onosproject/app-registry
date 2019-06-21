@@ -3,7 +3,8 @@
     "title": "Intent Synchronizer",
     "url": "http://onosproject.org",
     "maintainer": "ONF",
-    "repo": "htt",
+    "repo": "https://FIXME",
     "id": "org.onosproject.intentsynchronizer",
-    "author": "ONOS Community"
+    "author": "ONOS Community",
+    "versions": {}
 }
