@@ -1,12 +1,16 @@
 import chai from 'chai'
 import chaiHttp from 'chai-http'
-import app from '../app'
 import * as fs from 'fs'
 import path from 'path'
 import { IApplication } from "../types/application"
 chai.use(chaiHttp)
 const should = chai.should()
+import { validateJSON } from '../scripts/validatejson'
+import app from '../app'
+import { doesNotReject } from 'assert';
+
 let allApps: IApplication[] = JSON.parse(fs.readFileSync(path.join(__dirname, '../apps/all.json'), 'utf8'))
+
 
 describe('api/applications', () => {
   beforeEach((done) => {
@@ -20,7 +24,7 @@ describe('api/applications', () => {
         .end((err: Error, res: any) => {
           res.should.have.status(200)
           res.body.should.be.a('array')
-          res.body.length.should.be.eql(159)
+          validateResponse(res)
           done()
         })
     })
@@ -35,6 +39,7 @@ describe('api/applications', () => {
             res.should.have.status(200)
             res.body.should.be.a('array')
             res.body.length.should.be.eql(1)
+            validateResponse(res)
             done()
           })
       })
@@ -58,6 +63,7 @@ describe('api/applications', () => {
         .end((err: Error, res: any) => {
           res.should.have.status(200)
           res.body.should.be.a('array')
+          validateResponse(res)
           done()
         })
     })
@@ -74,4 +80,11 @@ describe('api/applications', () => {
     })
   })
 
+
 })
+
+function validateResponse(res: any) {
+  res.body.forEach((element: IApplication) => {
+    validateJSON(element)
+  });
+}
