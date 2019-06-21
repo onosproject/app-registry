@@ -1,7 +1,7 @@
 import { Request, Response, Router } from "express"
 import * as fs from "fs"
 import path from "path"
-import { IApplication } from "../types/application"
+import { IApplication, IApplicationVersionListing } from "../types/application"
 
 export const applicationsRouter = Router()
 
@@ -23,9 +23,14 @@ applicationsRouter.get("/", async (req: Request, res: Response) => {
             }
         }
         if (onosVersion) {
-            results = results.filter((x) =>
-                x.versions && (x.versions as any)[onosVersion],
-            )
+            results = results.filter((x) => {
+                return (
+                    x.versions &&
+                    Object.values(x.versions)
+                        .filter((v: IApplicationVersionListing) => v.onosVersion === onosVersion)
+                        .length > 0
+                )
+            })
             if (results.length === 0) {
                 return res.status(400).json({ error: `No applications found supporting version ${onosVersion}` })
             }
