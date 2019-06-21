@@ -1,17 +1,18 @@
-import { IApplication, IApplicationVersionListing } from "../types/application"
-import signale from 'signale'
-import { validateJSON } from './validatejson'
-const fs = require('fs')
-const path = require('path')
-const testFolder = path.join(__dirname, '../apps')
+import fs from "fs"
+import path from "path"
+import signale from "signale"
+import { IApplication } from "../types/application"
+import { validateJSON } from "./validatejson"
+const testFolder = path.join(__dirname, "../apps")
 
-let allApps: IApplication[] = []
+const allApps: IApplication[] = []
 
-fs.readdir(testFolder, (err: Error, files: string[]) => {
+fs.readdir(testFolder, (err, files: string[]) => {
     let passed = true
-    if (err) throw err
+    if (err) { throw err }
+    // tslint:disable-next-line: prefer-for-of
     for (let i = 0; i < files.length; i++) {
-        let j: IApplication = JSON.parse(fs.readFileSync(`${testFolder}/${files[i]}`, 'utf8'))
+        const j: IApplication = JSON.parse(fs.readFileSync(`${testFolder}/${files[i]}`, "utf8"))
         try {
             validateJSON(j)
         } catch (err) {
@@ -21,15 +22,13 @@ fs.readdir(testFolder, (err: Error, files: string[]) => {
         allApps.push(j)
     }
 
-    fs.open(`${testFolder}/all.json`, 'w', function (err: Error, dir: String) {
-        if (err) throw err
+    fs.open(`${testFolder}/all.json`, "w", (error, fd) => {
+        if (error) { throw error }
         fs.writeFileSync(`${testFolder}/all.json`, JSON.stringify(allApps, null, 4))
-    });
+    })
     if (passed) {
         signale.complete(`All ${files.length} files completed validation`)
     } else {
-        signale.fatal('Files did not complete validation')
+        signale.fatal("Files did not complete validation")
     }
 })
-
-
