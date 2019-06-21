@@ -9,7 +9,6 @@ import morgan from 'morgan'
 
 config()
 const PORT = process.env.PORT || 3000
-
 const app = express()
 
 app.use(
@@ -23,8 +22,8 @@ app.use(
 app.use(bodyParser.json())
 app.use(cookieParser())
 app.use(express.static('public'))
-app.use(morgan('combined'))
+if (process.env.NODE_ENV === 'production') app.use(morgan('combined'))
 app.use('/api/applications', applicationsRouter)
 
 app.listen(PORT, () => signale.start(`App listening on port ${PORT}`))
-
+export default app

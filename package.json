@@ -8,7 +8,7 @@
     "build:ts": "tsc --project tsconfig.json --watch false",
     "build:json": "node build/scripts/buildjson.js",
     "build": "npm run clear && npm run build:ts && npm run copy && npm run build:json",
-    "test": "npm run build && mocha build/scripts",
+    "test": "npm run build && mocha build/tests",
     "start": "npm run build && node .",
     "watch": "tsc --project tsconfig.json --watch true",
     "dev": "nodemon .",
