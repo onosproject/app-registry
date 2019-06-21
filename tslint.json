@@ -4,6 +4,15 @@
         "tslint:recommended"
     ],
     "jsRules": {},
-    "rules": {},
+    "rules": {
+        "whitespace": [
+            false
+        ],
+        "import-spacing": false,
+        "semicolon": [
+            true,
+            "never"
+        ]
+    },
     "rulesDirectory": []
 }
