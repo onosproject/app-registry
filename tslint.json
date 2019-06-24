@@ -1,8 +1,8 @@
 {
     "defaultSeverity": "error",
-    "extends": [
+    "extends": 
         "tslint:recommended"
-    ],
+    ,
     "jsRules": {},
     "rules": {
         "whitespace": [
@@ -12,7 +12,8 @@
         "semicolon": [
             true,
             "never"
-        ]
+        ],
+        "quotemark": [true, "double", "avoid-escape"]
     },
     "rulesDirectory": []
 }
