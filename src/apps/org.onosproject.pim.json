@@ -13,10 +13,6 @@
         "2.1.0": {
             "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-pim-oar/2.1.0/onos-apps-pim-oar-2.1.0.oar",
             "onosVersion": "2.1.0"
-        },
-        "1.15.0": {
-            "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-pim-oar/1.15.0/onos-apps-pim-oar-1.15.0.oar",
-            "onosVersion": "1.15.0"
         }
     },
     "id": "org.onosproject.pim",
