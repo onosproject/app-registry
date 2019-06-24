@@ -1,0 +1,16 @@
+{
+    "author": "ONOS Community",
+    "category": "Utility",
+    "id": "org.onosproject.mlb",
+    "maintainter": "ONOS Community",
+    "readme": "",
+    "repo": "",
+    "title": "Mastership Load Balancer",
+    "url": "http://onosproject.org",
+    "versions": {
+        "1.15.0": {
+            "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-mlb-oar/1.15.0/onos-apps-mlb-oar-1.15.0.oar",
+            "onosVersion": "1.15.0"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "author": "ONOS Community",
+    "category": "Protocol",
+    "id": "org.onosproject.protocols.p4runtime",
+    "maintainter": "ONOS Community",
+    "readme": "",
+    "repo": "",
+    "title": "P4Runtime Protocol Subsystem",
+    "url": "http://onosproject.org",
+    "versions": {
+        "1.15.0": {
+            "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-protocols-p4runtime-oar/1.15.0/onos-protocols-p4runtime-oar-1.15.0.oar",
+            "onosVersion": "1.15.0"
+        }
+    }
+}
