@@ -2,7 +2,6 @@
     "author": "ONOS Community",
     "category": "Protocol",
     "id": "org.onosproject.protocols.xmpp.pubsub",
-    "maintainter": "ONOS Community",
     "readme": "",
     "repo": "",
     "title": "XMPP Publish/Subscribe protocol extension subsystem",
@@ -12,5 +11,6 @@
             "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-protocols-xmpp-pubsub-oar/1.15.0/onos-protocols-xmpp-pubsub-oar-1.15.0.oar",
             "onosVersion": "1.15.0"
         }
-    }
+    },
+    "maintainer": "ONOS Community"
 }

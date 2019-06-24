@@ -2,7 +2,6 @@
     "author": "ONOS Community",
     "category": "Integration",
     "id": "org.onosproject.k8s-node",
-    "maintainter": "ONOS Community",
     "readme": "",
     "repo": "",
     "title": "Kubernetes Node Application",
@@ -12,5 +11,6 @@
             "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-k8s-node-oar/1.15.0/onos-apps-k8s-node-oar-1.15.0.oar",
             "onosVersion": "1.15.0"
         }
-    }
+    },
+    "maintainer": "ONOS Community"
 }
