@@ -1,6 +1,14 @@
-import bodyParser from "body-parser";
+import bodyParser from "body-parser"
+import cookieParser from "cookie-parser"
+import cors from "cors"
+import { config } from "dotenv"
+import express from "express"
+import morgan from "morgan"
+import path from "path"
+import signale from "signale"
+import { applicationsRouter } from "./routes/applications"
 config()
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 8080
 const app = express()
 
 app.use(
