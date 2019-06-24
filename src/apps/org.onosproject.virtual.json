@@ -15,7 +15,7 @@
             "onosVersion": "2.1.0"
         },
         "1.15.0": {
-            "oarURL": "",
+            "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-virtual-oar/1.15.0/onos-apps-virtual-oar-1.15.0.oar",
             "onosVersion": "1.15.0"
         }
     },

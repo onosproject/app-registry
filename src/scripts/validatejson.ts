@@ -6,9 +6,9 @@ export function validateJSON(j: IApplication) {
     if (!j.title) { bad(j, "title") }
     if (!j.url) { bad(j, "url") }
     if (!j.maintainer) { bad(j, "maintainer") }
-    if (!j.repo) { bad(j, "repo") }
+    if (!j.repo && j.repo !== "") { bad(j, "repo") }
 
-    // if (!j.readme) bad(j, 'readme')
+    if (!j.readme && j.readme !== "") { bad(j, "readme") }
     // ^ allowed to be missing
 
     if (!j.versions) { bad(j, "versions") }
