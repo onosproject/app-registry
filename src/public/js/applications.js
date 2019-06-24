@@ -6,7 +6,7 @@ function buildOarHTML(versions){
     let html = ''
     for(let vkey in versions){
         let version = versions[vkey]
-        html += `<a href=${version.oarURL}>${vkey}</a>\n`
+        html += `<a href=${version.oarURL}>v${vkey} - ONOS v${version.onosVersion}</a><br>`
     }
     return html
 }
