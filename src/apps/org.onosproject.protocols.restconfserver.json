@@ -1,0 +1,16 @@
+{
+    "author": "ONOS Community",
+    "category": "Utility",
+    "id": "org.onosproject.protocols.restconfserver",
+    "maintainter": "ONOS Community",
+    "readme": "",
+    "repo": "",
+    "title": "RESTCONF Server Module",
+    "url": "http://onosproject.org",
+    "versions": {
+        "1.15.0": {
+            "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-protocols-restconf-server-oar/1.15.0/onos-protocols-restconf-server-oar-1.15.0.oar",
+            "onosVersion": "1.15.0"
+        }
+    }
+}
