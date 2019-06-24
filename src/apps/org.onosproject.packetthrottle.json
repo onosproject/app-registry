@@ -1,0 +1,16 @@
+{
+    "author": "ONOS Community",
+    "category": "Traffic Steering",
+    "id": "org.onosproject.packetthrottle",
+    "readme": "",
+    "repo": "",
+    "title": "Packet Throttler",
+    "url": "http://onosproject.org",
+    "versions": {
+        "1.15.0": {
+            "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-packet-throttle-oar/1.15.0/onos-apps-packet-throttle-oar-1.15.0.oar",
+            "onosVersion": "1.15.0"
+        }
+    },
+    "maintainer": "ONOS Community"
+}

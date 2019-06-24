@@ -1,0 +1,16 @@
+{
+    "author": "ONOS Community",
+    "category": "Utility",
+    "id": "org.onosproject.network-troubleshoot",
+    "readme": "",
+    "repo": "",
+    "title": "Network Troubleshooter",
+    "url": "https://wiki.onosproject.org/display/ONOS/Network+TroubleShooting+Module",
+    "versions": {
+        "1.15.0": {
+            "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-network-troubleshoot-oar/1.15.0/onos-apps-network-troubleshoot-oar-1.15.0.oar",
+            "onosVersion": "1.15.0"
+        }
+    },
+    "maintainer": "ONOS Community"
+}

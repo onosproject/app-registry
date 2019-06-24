@@ -1,0 +1,16 @@
+{
+    "author": "ONOS Community",
+    "category": "Utilities",
+    "id": "org.onosproject.portloadbalancer",
+    "readme": "",
+    "repo": "",
+    "title": "Port Load Balance Service",
+    "url": "http://onosproject.org",
+    "versions": {
+        "1.15.0": {
+            "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-portloadbalancer-oar/1.15.0/onos-apps-portloadbalancer-oar-1.15.0.oar",
+            "onosVersion": "1.15.0"
+        }
+    },
+    "maintainer": "ONOS Community"
+}
