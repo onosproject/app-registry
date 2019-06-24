@@ -21,7 +21,7 @@ app.use(
 )
 app.use(bodyParser.json())
 app.use(cookieParser())
-if (process.env.NODE_ENV === "production") { app.use(morgan("combined")) }
+if (process.env.TRAVIS !== "true") { app.use(morgan("combined")) }
 app.use("/api/applications", applicationsRouter)
 app.get("/applications",(req,res)=> {
     res.sendFile(path.join(__dirname, "./views/applications.html"))

@@ -63,7 +63,7 @@ const productionServer = () => {
 
     app.listen(port, () => {
         launchApp()
-        signale.info(`App running on port ${port}`)
+        signale.info(`Autodeploy server running on port ${port}`)
     })
 }
 

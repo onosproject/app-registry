@@ -3,10 +3,12 @@
 # App Registry
 
   - Hosts API and Portal for ONOS and µONOS applications
+  - View applications at http://api.onosproject.org:8080/applications
  
 # QuickStart
 ```
 git clone https://github/com/onosproject/app-regsitry
+cd app-registry
 npm install
 npm start
 ```
