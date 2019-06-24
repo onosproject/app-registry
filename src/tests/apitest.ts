@@ -90,6 +90,17 @@ describe("api/applications", () => {
     })
   })
 
+  describe(`Test /applications html page`, () => {
+    it("should return html page", (done) => {
+      chai.request(app)
+        .get(`/applications`)
+        .end((err: Error, res: any) => {
+          res.should.have.status(200)
+          done()
+        })
+    })
+  })
+
 })
 
 function validateResponse(res: any) {
