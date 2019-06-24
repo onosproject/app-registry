@@ -2,7 +2,7 @@
   "name": "app-registry",
   "version": "1.0.0",
   "description": "Onos App Registry",
-  "main": "./build/app.js",
+  "main": "./build/deploy.js",
   "scripts": {
     "clear": "rm -rf build/* ",
     "build:ts": "tsc --project tsconfig.json --watch false",
@@ -12,7 +12,7 @@
     "start": "npm run build && node .",
     "watch": "tsc --project tsconfig.json --watch true",
     "dev": "nodemon .",
-    "copy": "cp -a src/apps build/apps"
+    "copy": "cp -a src/apps build/apps && cp -a src/views build/views"
   },
   "repository": {
     "type": "git",
@@ -35,6 +35,7 @@
     "@types/mongoose": "^5.5.3",
     "@types/morgan": "^1.7.35",
     "@types/request-promise": "^4.1.44",
+    "@types/shelljs": "^0.8.5",
     "@types/signale": "^1.2.1",
     "@types/yargs": "^13.0.0",
     "bcrypt": "^3.0.6",
@@ -50,6 +51,7 @@
     "mongoose": "^5.6.0",
     "morgan": "^1.9.1",
     "request-promise": "^4.2.4",
+    "shelljs": "^0.8.3",
     "signale": "^1.4.0",
     "typescript": "^3.5.1",
     "yargs": "^13.2.4"
