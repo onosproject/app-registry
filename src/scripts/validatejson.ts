@@ -17,7 +17,7 @@ export function validateJSON(j: IApplication) {
     if (!j.author) { bad(j, "author") }
 
     if (!validateLink(j.url)) { bad(j, "url") }
-    if (!validateLink(j.repo)) { bad(j, "repo") }
+    // if (!validateLink(j.repo)) { bad(j, "repo") }
     // below is commented
     // if (!validateLink(j.readme!)) bad(j, 'readme')
 
