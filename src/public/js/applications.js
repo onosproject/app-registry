@@ -1,6 +1,6 @@
 // @ts-nocheck
-async function getApplications(){
-    return (await axios.get('/api/applications'))
+async function getApplications(version){
+    return (await axios.get(`/api/applications?onosVersion=${version}`))
 }
 function buildOarHTML(versions){
     let html = ''
@@ -22,15 +22,15 @@ function renderRow(app){
     `)
 }
 
-async function renderTable(response){
-    await getApplications().then(res => {
+async function renderTable(){
+    await getApplications($('#version-select').find(':selected').text()).then(res => {
         $('#apps-table').html(`
         <thead>
         <tr>
             <th scope="col">Title</th>
             <th scope="col">Category</th>
             <th scope="col">Author</th>
-            <th scope="col">OAR</th>
+            <th scope="col">Downloads</th>
             <th scope="col">id</th>
         </tr>
         </thead>
@@ -47,6 +47,9 @@ async function renderTable(response){
 }
 
 $(document).ready(function() {
+    $('#version-select').on('change', () => {
+        renderTable()
+    })
    renderTable()
 } );
 
