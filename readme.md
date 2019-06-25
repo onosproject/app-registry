@@ -7,7 +7,7 @@
  
 # QuickStart
 ```
-git clone https://github/com/onosproject/app-regsitry
+git clone https://github.com/onosproject/app-registry
 cd app-registry
 npm install
 npm start

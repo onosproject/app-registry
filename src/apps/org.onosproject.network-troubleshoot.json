@@ -2,7 +2,10 @@
     "author": "ONOS Community",
     "category": "Utility",
     "id": "org.onosproject.network-troubleshoot",
+<<<<<<< HEAD
     "maintainter": "ONOS Community",
+=======
+>>>>>>> upstream/master
     "readme": "",
     "repo": "",
     "title": "Network Troubleshooter",
@@ -12,5 +15,10 @@
             "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-network-troubleshoot-oar/1.15.0/onos-apps-network-troubleshoot-oar-1.15.0.oar",
             "onosVersion": "1.15.0"
         }
+<<<<<<< HEAD
     }
+=======
+    },
+    "maintainer": "ONOS Community"
+>>>>>>> upstream/master
 }
