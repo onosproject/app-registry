@@ -3,10 +3,13 @@ async function getApplications(version){
     return (await axios.get(`/api/applications?onosVersion=${version}`))
 }
 function buildOarHTML(versions){
+    let desiredVersion = $('#version-select').find(':selected').val()
     let html = ''
     for(let vkey in versions){
         let version = versions[vkey]
-        html += `<a href=${version.oarURL}>v${vkey} - ONOS v${version.onosVersion}</a><br>`
+        if(version.onosVersion === desiredVersion || desiredVersion === ""){
+            html += `<a href=${version.oarURL}>v${vkey} - ONOS v${version.onosVersion}</a><br>`
+        }
     }
     return html
 }
@@ -22,8 +25,8 @@ function renderRow(app){
     `)
 }
 
-async function renderTable(){
-    await getApplications($('#version-select').find(':selected').text()).then(res => {
+async function renderTable(res){
+    
         $('#apps-table').html(`
         <thead>
         <tr>
@@ -43,13 +46,37 @@ async function renderTable(){
             .join()
         }
         `)
+}
+
+function renderDropdown(res){
+    let allVersions = []
+    res.data.forEach(app => {
+        Object.values(app.versions).forEach(version => {
+            allVersions.push(version.onosVersion)
+        })
+    })
+    let menuVersions = _.uniq( allVersions).sort()
+
+    $('#version-select').html(() => {
+        
+        return (
+            [`<option value="">*</option>`] + menuVersions.map(x => `<option value="${x}">${x}</option>`).join("\n")
+        )
     })
 }
 
 $(document).ready(function() {
-    $('#version-select').on('change', () => {
-        renderTable()
+    $('#version-select').val("")
+    getApplications($('#version-select').find(':selected').val()).then(data => {
+        renderTable(data)
+        renderDropdown(data)
     })
-   renderTable()
+
+
+    $('#version-select').on('change', () => {
+        getApplications($('#version-select').find(':selected').val()).then(data => {
+            renderTable(data)
+        })
+    })
 } );
 
