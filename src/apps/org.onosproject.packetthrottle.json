@@ -12,5 +12,9 @@
             "onosVersion": "1.15.0"
         }
     },
+        "2.2.0": {
+            "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-openstacknetworking-oar/2.2.0/onos-apps-openstacknetworking-oar-2.2.0.oar",
+            "onosVersion": "2.2.0"
+        },
     "maintainer": "ONOS Community"
 }

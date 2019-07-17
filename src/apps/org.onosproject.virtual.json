@@ -10,6 +10,10 @@
             "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-virtual-oar/2.0.0/onos-apps-virtual-oar-2.0.0.oar",
             "onosVersion": "2.0.0"
         },
+        "2.2.0": {
+            "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-drivers-ciena-waveserverai-oar/2.2.0/onos-drivers-ciena-waveserverai-oar-2.2.0.oar",
+            "onosVersion": "2.2.0"
+        },
         "2.1.0": {
             "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-virtual-oar/2.1.0/onos-apps-virtual-oar-2.1.0.oar",
             "onosVersion": "2.1.0"
