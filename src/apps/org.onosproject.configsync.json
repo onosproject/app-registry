@@ -7,14 +7,14 @@
     "title": "Dynamic Configuration Synchronizer",
     "url": "http://onosproject.org",
     "versions": {
+        "2.2.0": {
+            "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-openstacktroubleshoot-oar/2.2.0/onos-apps-openstacktroubleshoot-oar-2.2.0.oar",
+            "onosVersion": "2.2.0"
+        },
         "1.15.0": {
             "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-configsync-oar/1.15.0/onos-apps-configsync-oar-1.15.0.oar",
             "onosVersion": "1.15.0"
         }
     },
-        "2.2.0": {
-            "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-openstacktroubleshoot-oar/2.2.0/onos-apps-openstacktroubleshoot-oar-2.2.0.oar",
-            "onosVersion": "2.2.0"
-        },
     "maintainer": "ONOS Community"
 }
