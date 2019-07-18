@@ -30,7 +30,7 @@ applicationsRouter.get("/", async (req: Request, res: Response) => {
                 onosVersion = onosVersion.split("-")[0]
             } catch (error) {
                 signale.error(error)
-                res.status(400).json({ success: false, error: "onosVersion incorrectly formatted" })
+                return res.status(400).json({ success: false, error: "onosVersion incorrectly formatted" })
             }
             results = results.filter((x) => {
                 return (
