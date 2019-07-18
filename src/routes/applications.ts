@@ -1,6 +1,7 @@
 import { Request, Response, Router } from "express"
 import * as fs from "fs"
 import path from "path"
+import signale = require("signale")
 import { IApplication, IApplicationVersionListing } from "../types/application"
 
 export const applicationsRouter = Router()
@@ -14,7 +15,8 @@ const APPS = JSON.parse(fs.readFileSync(path.join(__dirname, "../apps/all.json")
  */
 applicationsRouter.get("/", async (req: Request, res: Response) => {
     try {
-        const { id, onosVersion } = req.query // pull query strings from request
+        // tslint:disable-next-line: prefer-const
+        let { id, onosVersion } = req.query // pull query strings from request
         let results = APPS
         if (id) {
             results = results.filter((x) => x.id === id)
@@ -22,7 +24,14 @@ applicationsRouter.get("/", async (req: Request, res: Response) => {
                 return res.status(400).json({ error: `No applications found with id: ${id}` })
             }
         }
+
         if (onosVersion) {
+            try {
+                onosVersion = onosVersion.split("-")[0]
+            } catch (error) {
+                signale.error(error)
+                res.status(400).json({ success: false, error: "onosVersion incorrectly formatted" })
+            }
             results = results.filter((x) => {
                 return (
                     x.versions &&
