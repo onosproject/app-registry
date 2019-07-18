@@ -67,6 +67,18 @@ describe("api/applications", () => {
         })
     })
   })
+  describe(`Test version filtering with snapshot query`, () => {
+    it("should return list of apps", (done) => {
+      chai.request(app)
+        .get(`/api/applications?onosVersion=2.1.0-SNAPSHOT`)
+        .end((err: Error, res: any) => {
+          res.should.have.status(200)
+          res.body.should.be.a("array")
+          validateResponse(res)
+          done()
+        })
+    })
+  })
 
   describe(`Test invalid version`, () => {
     it("should return 400 error", (done) => {
