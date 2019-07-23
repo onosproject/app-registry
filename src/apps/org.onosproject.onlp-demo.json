@@ -1,0 +1,16 @@
+{
+  "category": "GUI",
+  "title": "ONLP device demo",
+  "url": "http://onosproject.org",
+  "maintainer": "ONF",
+  "repo": "https://github.com/opennetworkinglab/onos",
+  "readme": "https://github.com/opennetworkinglab/onos/tree/apps/onlp-demo/README.md",
+  "versions": {
+    "2.2.0": {
+      "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-apps-onlp-demo-oar/2.2.0/onos-apps-onlp-demo-oar-2.2.0.oar",
+      "onosVersion": "2.2.0"
+    }
+  },
+  "id": "org.onosproject.onlp-demo",
+  "author": "ONOS Community"
+}

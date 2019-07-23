@@ -1,0 +1,16 @@
+{
+  "category": "Models",
+  "title": "ONF Transport API YANG Models",
+  "url": "http://onosproject.org",
+  "maintainer": "ONF",
+  "repo": "https://github.com/opennetworkinglab/onos",
+  "readme": "https://github.com/opennetworkinglab/onos/tree/master/models/tapi/README.md",
+  "versions": {
+    "2.2.0": {
+      "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-models-tapi-oar/2.2.0/onos-models-tapi-oar-2.2.0.oar",
+      "onosVersion": "2.2.0"
+    }
+  },
+  "id": "org.onosproject.models.tapi",
+  "author": "ONOS Community"
+}
