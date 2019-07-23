@@ -1,0 +1,16 @@
+{
+  "category": "Protocol",
+  "title": "gNOI Protocol Subsystem",
+  "url": "http://onosproject.org",
+  "maintainer": "ONF",
+  "repo": "https://github.com/opennetworkinglab/onos",
+  "readme": "https://github.com/opennetworkinglab/onos/tree/master/protocol/gnoi/README.md",
+  "versions": {
+    "2.2.0": {
+      "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-protocol-gnoi-oar/2.2.0/onos-protocol-gnoi-oar-2.2.0.oar",
+      "onosVersion": "2.2.0"
+    }
+  },
+  "id": "org.onosproject.protocol.gnoi",
+  "author": "ONOS Community"
+}

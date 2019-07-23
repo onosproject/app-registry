@@ -1,0 +1,16 @@
+{
+  "category": "Models",
+  "title": "Huawei YANG Modelss",
+  "url": "http://onosproject.org",
+  "maintainer": "ONF",
+  "repo": "https://github.com/opennetworkinglab/onos",
+  "readme": "https://github.com/opennetworkinglab/onos/tree/master/models/huawei/README.md",
+  "versions": {
+    "2.2.0": {
+      "oarURL": "http://repo1.maven.org/maven2/org/onosproject/onos-models-huawei-oar/2.2.0/onos-models-huawei-oar-2.2.0.oar",
+      "onosVersion": "2.2.0"
+    }
+  },
+  "id": "org.onosproject.models.huawei",
+  "author": "ONOS Community"
+}
