@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/onosproject/app-registry.svg?branch=master)](https://travis-ci.org/onosproject/app-registry)
 
-# App Registry
+# App Registry 
 
   - Hosts API and Portal for ONOS and µONOS applications
   - View applications at http://api.onosproject.org:8080/applications
